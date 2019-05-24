@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--<TextView-->
+        <!--android:id="@+id/txtView1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+
+        <!--android:textSize="40sp"-->
+        <!--android:layout_marginRight="100dp"-->
+        <!--android:background="@android:color/holo_blue_bright"-->
+       <!--android:layout_marginLeft="150dp"-->
+        <!--android:layout_marginTop="400dp"-->
+        <!--android:gravity="center"/>-->
+
+
+        <!--<SeekBar-->
+            <!--android:id="@+id/seekbar"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="400dp"-->
+            <!--android:max="150"/>-->
+
+    <!--<RatingBar-->
+        <!--android:id="@+id/ratingBar1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_marginTop="100dp"-->
+        <!--android:layout_marginRight="100dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="80dp"-->
+        <!--android:foregroundGravity="center"/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+
+        <!--android:text="Rate"-->
+        <!--android:textSize="20sp"-->
+        <!--android:layout_marginTop="250dp"-->
+        <!--android:layout_marginLeft="160dp"/>-->
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="COURSE"
+       android:layout_marginLeft="150dp"/>
+
+   <RadioGroup
+       android:id="@+id/radioGroup"
+       android:layout_marginTop="165dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <RadioButton
+           android:id="@+id/radioButton2"
+           android:text="DBMS"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+
+       <RadioButton
+           android:id="@+id/radioButton3"
+           android:text="JAVA"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+
+       <RadioButton
+           android:id="@+id/radioButton4"
+           android:text="Android"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+
+       <RadioButton
+           android:id="@+id/radioButton5"
+           android:text="RUBYRAIL"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+
+   </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="226dp"
+        android:layout_marginBottom="245dp"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="243dp"
+        android:text="Clear" />
+
+
+</RelativeLayout>
